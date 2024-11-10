@@ -5,6 +5,7 @@ init:
 
 up: init
 	docker compose up -d
+	docker compose logs -f web
 
 down:
 	docker compose down
